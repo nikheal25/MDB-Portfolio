@@ -6,7 +6,7 @@ header,
 }
 
 #intro {
-  background: url("../img/background.jpg") no-repeat center center fixed;
+  background: url("../img/back-2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,6 +17,18 @@ header,
   display: flex;
   flex-direction: column;
 }
+
+.text {
+  display:inline-block;
+}
+
+/* TODO Either delete or work on it */
+
+/* .project-images{
+    width: 400px; 
+    height: 200px;
+    object-fit: cover; 
+} */
 
 .hovereffect {
   /*  width: 100%;
